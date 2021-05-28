@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+}
+
+.header-wrapper{
+    width: 100%;
+}
+
+.header-top-bg{
+    background-color: #ba2e1f;
+    width: 100%;
+}
+
+.header-top{
+    width: 95%;
+    padding: 2% 0%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top-left{
+    color: white;
+    font-size: x-small;
+}
+
+.header-top-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-top-right button{
+    background: #ba2e1f;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    left: 83%;
+}
+
+.fa-search{
+    margin: 2px -2.5px !important;
+    padding: unset;
+}
+
+.search-bar{
+    width: 25vw;
+    padding: 4% 0%;
+    padding-left: 5%;
+    border: none;
+    border-radius: 30px;
+    outline-style: none;
+}
+
+.header-middle{
+    width: 95%;
+    margin: auto;
+    padding: 5% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-middle h1{
+    font-weight: normal;
+    font-size: 170%;
+}
+
+.header-middle h1::first-letter{
+    font-size: 120%;
+}
+
+.header-middle p{
+    font-size: smaller;
+}
+
+.header-middle-right button{
+    cursor: pointer;
+    border: none;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    background: black;
+}
+
+.header-middle-right button:hover{
+    background: orangered;
+}
+
+.fab{
+    margin: 35% 0%;
+}
+
+.fas{
+    margin: 35% 0%;
+}
+
+.fa-wifi{
+    transform: rotate(45deg) translateX(-2px) translateY(2.5px);
+}
+
+.header-bottom{
+    background-color: #2b2b2b;
+    width: 95%;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+.header-bottom ul{
+    text-align: center;
+    list-style: none;
+    padding-left: -0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-bottom ul li{
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.header-bottom ul li:hover{
+    color: #ba2e1f;
+}
